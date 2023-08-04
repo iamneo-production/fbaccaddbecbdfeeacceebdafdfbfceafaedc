@@ -66,6 +66,6 @@ public class TaskController {
 
         taskRepository.deleteById(deleteTask.getTaskID());
         return "Task deleted";
-    }
+    }
 
 }
